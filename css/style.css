@@ -130,3 +130,22 @@ footer h4{
 footer p{
     text-align: center;
 }
+
+@media (min-width: 426px){
+
+}
+
+@media (min-width: 769px){
+    .card{
+        display: flex;
+    }
+    .card p{
+        padding-left: 8px;
+    }
+    .card img{
+        width: 40%;
+    }
+}
+@media (min-width: 1201px){
+
+}
