@@ -1,12 +1,233 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omelete</title>
+    <script src="https://kit.fontawesome.com/525a7ba6e9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+
+    <header class="container">
+
+        <a href="#" title="Acessar menu" onclick="btnMenu()"  class="btn shadow circle"><i class="fas fa-bars"></i></a>
+        <a href="index.html">
+            <img src="img/omelete_logo.svg" alt="Logo do Omelete">
+        </a>  
+        <a href="#" class="btn shadow circle">
+            <i class="fas fa-search"></i>
+        </a>
+
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="index.html">início</a>
+                </li>
+                <li>
+                    <a href="#filmes">filmes</a>
+                </li>
+                <li>
+                    <a href="#series">series</a>
+                </li>
+            </ul>
+        </nav>
+
+
+
+        <div class="top_sociais">
+            <a href="#">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+
+    </header>
+    <main>
+        <div class="banner">
+            <picture>
+                <source media="(min-width: 1200px)" srcset="img/news/4.png">
+                <source media="(min-width: 768px)" srcset="img/news/3.png">
+                <source media="(min-width: 460px)" srcset="img/news/2.png">
+                <img src="img/news/1.jpg" alt="Banner Demonstrativo - Mobile">
+            </picture>
+        </div>
+        <h1>Principais destaques</h1>
+        <section id="filmes">
+            <h2>filmes</h2>
+            <div class="card btn shadow rounded">
+                <img src="img/news/2.png" alt="Imagem sobre a notícia x ">
+                <h3>Logan está de volta a Marvel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias consequuntur, laboriosam possimus non
+                    odio nobis aperiam sint quasi? Ab veniam quam consequatur porro laborum magnam quisquam cum officia
+                    nemo dolores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium hic enim
+                    dignissimos blanditiis minus iusto sequi suscipit natus ea explicabo. Libero quidem reprehenderit
+                    modi architecto iure numquam assumenda. Excepturi, obcaecati?Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Quod excepturi voluptas alias laudantium a, hic ducimus ea eligendi impedit quae
+                    totam expedita eius suscipit obcaecati, sint tempore voluptatibus autem nesciunt.</p>
+            </div>
+            <div class="card btn shadow rounded">
+                <img src="img/news/3.png" alt="Imagem sobre a notícia x ">
+                <h3>Logan está de volta a Marvel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias consequuntur, laboriosam possimus non
+                    odio nobis aperiam sint quasi? Ab veniam quam consequatur porro laborum magnam quisquam cum officia
+                    nemo dolores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium hic enim
+                    dignissimos blanditiis minus iusto sequi suscipit natus ea explicabo. Libero quidem reprehenderit
+                    modi architecto iure numquam assumenda. Excepturi, obcaecati?Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Quod excepturi voluptas alias laudantium a, hic ducimus ea eligendi impedit quae
+                    totam expedita eius suscipit obcaecati, sint tempore voluptatibus autem nesciunt.</p>
+            </div>
+            <div class="card btn shadow rounded">
+                <img src="img/news/4.png" alt="Imagem sobre a notícia x ">
+                <h3>Logan está de volta a Marvel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias consequuntur, laboriosam possimus non
+                    odio nobis aperiam sint quasi? Ab veniam quam consequatur porro laborum magnam quisquam cum officia
+                    nemo dolores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium hic enim
+                    dignissimos blanditiis minus iusto sequi suscipit natus ea explicabo. Libero quidem reprehenderit
+                    modi architecto iure numquam assumenda. Excepturi, obcaecati?Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Quod excepturi voluptas alias laudantium a, hic ducimus ea eligendi impedit quae
+                    totam expedita eius suscipit obcaecati, sint tempore voluptatibus autem nesciunt.</p>
+            </div>
+        </section>
+        <!--fim section Filmes-->
+
+        <section id="#series">
+            <h2>Séries</h2>
+            <div class="card btn shadow rounded">
+                <img src="img/news/5.png" alt="Imagem sobre a notícia x ">
+                <h3>Os melhores de todos os tempos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias consequuntur, laboriosam possimus non
+                    odio nobis aperiam sint quasi? Ab veniam quam consequatur porro laborum magnam quisquam cum officia
+                    nemo dolores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium hic enim
+                    dignissimos blanditiis minus iusto sequi suscipit natus ea explicabo. Libero quidem reprehenderit
+                    modi architecto iure numquam assumenda. Excepturi, obcaecati?Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Quod excepturi voluptas alias laudantium a, hic ducimus ea eligendi impedit quae
+                    totam expedita eius suscipit obcaecati, sint tempore voluptatibus autem nesciunt.</p>
+            </div>
+            <div class="card btn shadow rounded">
+                <img src="img/news/6.jpg" alt="Imagem sobre a notícia x ">
+                <h3>Os melhores de todos os tempos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias consequuntur, laboriosam possimus non
+                    odio nobis aperiam sint quasi? Ab veniam quam consequatur porro laborum magnam quisquam cum officia
+                    nemo dolores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium hic enim
+                    dignissimos blanditiis minus iusto sequi suscipit natus ea explicabo. Libero quidem reprehenderit
+                    modi architecto iure numquam assumenda. Excepturi, obcaecati?Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Quod excepturi voluptas alias laudantium a, hic ducimus ea eligendi impedit quae
+                    totam expedita eius suscipit obcaecati, sint tempore voluptatibus autem nesciunt.</p>
+            </div>
+            <div class="card btn shadow rounded">
+                <img src="img/news/1.jpg" alt="Imagem sobre a notícia x ">
+                <h3>Os melhores de todos os tempos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias consequuntur, laboriosam possimus non
+                    odio nobis aperiam sint quasi? Ab veniam quam consequatur porro laborum magnam quisquam cum officia
+                    nemo dolores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium hic enim
+                    dignissimos blanditiis minus iusto sequi suscipit natus ea explicabo. Libero quidem reprehenderit
+                    modi architecto iure numquam assumenda. Excepturi, obcaecati?Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Quod excepturi voluptas alias laudantium a, hic ducimus ea eligendi impedit quae
+                    totam expedita eius suscipit obcaecati, sint tempore voluptatibus autem nesciunt.</p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="shadow">
+        <div class="container">
+            <div class="link btn inner rounded">
+                <h4>filmes</h4>
+                <nav>
+                    <ul>
+                        <li><a href="#">Oscar</a></li>
+                        <li><a href="#">Bilheteria USA</a></li>
+                        <li><a href="#">Bilheteria Brasi</a></li>
+                        <li><a href="#">Estréia da Semana</a></li>
+                        <li><a href="#">Críticas</a></li>
+                        <li><a href="#">Notícias</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="link btn inner rounded">
+                <h4>Séries de tv</h4>
+                <nav>
+                    <ul>
+                        <li><a href="#">Oscar</a></li>
+                        <li><a href="#">Bilheteria USA</a></li>
+                        <li><a href="#">Bilheteria Brasi</a></li>
+                        <li><a href="#">Estréia da Semana</a></li>
+                        <li><a href="#">Críticas</a></li>
+                        <li><a href="#">Notícias</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="link btn inner rounded">
+                <h4>HQ's e Livros</h4>
+                <nav>
+                    <ul>
+                        <li><a href="#">Oscar</a></li>
+                        <li><a href="#">Bilheteria USA</a></li>
+                        <li><a href="#">Bilheteria Brasi</a></li>
+                        <li><a href="#">Estréia da Semana</a></li>
+                        <li><a href="#">Críticas</a></li>
+                        <li><a href="#">Notícias</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="link btn inner rounded">
+                <h4>Musica</h4>
+                <nav>
+                    <ul>
+                        <li><a href="#">Oscar</a></li>
+                        <li><a href="#">Bilheteria USA</a></li>
+                        <li><a href="#">Bilheteria Brasi</a></li>
+                        <li><a href="#">Estréia da Semana</a></li>
+                        <li><a href="#">Críticas</a></li>
+                        <li><a href="#">Notícias</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="sociais btn inner rounded">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+
+        </div><!--Fim do Container-->
+
+        <p>2020 - Todos os direitos reservados</p>
+
+    </footer>
+
+    <script>
+        function btnMenu(){
+            var menu = document.getElementById("menu");
+
+            if(menu.style.display == "none"){
+                menu.style.display = "block";
+            }else{
+                menu.style.display = "none"
+            }
+        }
+    </script>
+
 </body>
+
 </html>
